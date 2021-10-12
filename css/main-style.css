@@ -425,6 +425,10 @@ body.ltr{
         word-wrap: none;
         min-width: unset !important;
     }
+    .plans .table{
+        font-size: 0.7rem;
+        font-weight: bold;
+    }
 }
 @media(min-width:975px){
     .custum-nav .nav-item{
