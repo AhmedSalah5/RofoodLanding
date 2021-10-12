@@ -392,6 +392,9 @@ body{
 body.ltr{
     direction: ltr;
 }
+.ltr .clients,.ltr .statistics{
+    direction: rtl;
+}
 
 /*--- Responsive ---*/
 @media(min-width:992px){
