@@ -414,6 +414,17 @@ body.ltr{
         text-align: center;
     }
 
+    .plans .table{
+        font-size: 1.1rem;
+    }
+
+}
+@media(max-width:991px){
+    .plans .table .btn-main{
+        font-size: 0.8rem;
+        display: inline-block;
+        word-wrap: none;
+    }
 }
 @media(min-width:975px){
     .custum-nav .nav-item{
