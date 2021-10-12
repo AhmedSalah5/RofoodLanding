@@ -423,6 +423,7 @@ body.ltr{
         font-size: 0.7rem;
         display: inline-block;
         word-wrap: none;
+        min-width: unset;
     }
 }
 @media(min-width:975px){
