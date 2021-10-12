@@ -223,7 +223,7 @@ body{
 
 /*Channels*/
 .brands{
-    width: 90%;
+    /* width: 90%; */
     margin: 10px auto;
     display: flex;
     flex-wrap: wrap;
