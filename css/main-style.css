@@ -414,13 +414,13 @@ body.ltr{
         text-align: center;
     }
     .plans .table{
-        font-size: 0.8rem;
+        font-size: 0.7rem;
     }
 
 }
 @media(max-width:991px){
     .plans .table .btn-main{
-        font-size: 0.8rem;
+        font-size: 0.7rem;
         display: inline-block;
         word-wrap: none;
     }
