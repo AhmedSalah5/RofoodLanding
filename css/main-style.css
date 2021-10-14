@@ -315,8 +315,9 @@ body{
 }
 
 /*-- How it Works --*/
-.how-it-works .header{
-    margin-bottom: 50px;
+.how-it-works .text{
+    width: 70%;
+    margin: 0 auto 40px;
 }
 
 /*--- Blogs ---*/
@@ -481,7 +482,12 @@ body.ltr{
         position: relative;
         transform: none; 
     }
-
+    .how-it-works .text{
+        width: 100%;
+        margin: 0 auto 40px;
+        font-size: 0.7rem!important;
+    }
+    
     .footer .top-img{
         width: 80px;
     }
@@ -534,6 +540,14 @@ body.ltr{
     }
     .main-btn{
         font-size: 18px;
+    }
+}
+@media(max-width:974px){
+    .products-page .header{
+        margin-bottom: 40px;
+    }
+    .custum-nav .main-btn{
+        margin-bottom: 10px;
     }
 }
 @media(min-width:1200px){
