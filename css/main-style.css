@@ -477,7 +477,10 @@ body.ltr{
     .statistics .text .left-qoute,.statistics .text .right-qoute{
         width: 20px;
     }
-
+    .product.even,.product:nth-of-type(even){
+        position: relative;
+        transform: none; 
+    }
 
     .footer .top-img{
         width: 80px;
