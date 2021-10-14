@@ -255,6 +255,7 @@ body{
     margin: 20px auto;
 }
 .footer .social{
+    padding-left: 0;
     list-style: none;
     direction: ltr;
     font-weight: bold;
@@ -486,7 +487,7 @@ body.ltr{
         font-size: 14px;
     }
     .footer .social{
-        width: 116%;
+        width: 100%;
         font-size: 12px;
     }
     .footer .social li{
