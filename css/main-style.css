@@ -154,6 +154,9 @@ body{
 .statistics h2{
     margin-bottom: 30px;
 }
+.statistics .review-slider{
+    width: 50%;
+}
 .statistics .text{
     width: 90%;
     margin: auto;
@@ -163,10 +166,10 @@ body{
 .statistics .text .left-qoute,.statistics .text .right-qoute{
     position: absolute;
     top: -5px;
-    width: 20px;
+    width: 30px;
 }
 .statistics .text .left-qoute{
-    left: 0;
+    left: 5px;
 }
 .statistics .text .right-qoute{
     right: 0;
@@ -404,6 +407,10 @@ body.ltr{
     .contact-wrapper form{
         width: 70%;
     }
+    .header .text,.header .image{
+        width: 50%;
+        margin: auto;
+    }
     
 }
 @media(max-width:767px){
@@ -428,6 +435,89 @@ body.ltr{
     .plans .table{
         font-size: 0.7rem;
         font-weight: bold;
+    }
+    .custum-nav .navbar-brand img{
+        width: 70px;
+    }
+    .header .text,.header .image{
+        width: 100%;
+    }
+    .statistics .person{
+        width: 130px;
+        height: 130px;
+    }
+    .statistics .review-slider{
+        width: 80%;
+    }
+    .statistics .img-btn{
+        width: 60px;
+    }
+
+    .statistics .img-btn.one{
+        left: 5%;
+    }
+    .statistics .img-btn.two{
+        right: 5%;
+    }
+    .statistics .img-btn.three{
+        left: 3%;
+        width: 60px;
+    }
+    .statistics .img-btn.four{
+        right: 3%;
+        width: 60px;
+    }
+    .statistics .img-btn.five{
+        left: 5%;
+    }
+    .statistics .img-btn.six{
+        right: 5%;
+    }
+    .statistics .text .left-qoute,.statistics .text .right-qoute{
+        width: 20px;
+    }
+
+
+    .footer .top-img{
+        width: 80px;
+    }
+    
+    .footer h3{
+        font-size: 14px;
+    }
+    .footer .social{
+        width: 116%;
+        font-size: 12px;
+    }
+    .footer .social li{
+        margin-bottom: 10px;
+        display: flex;
+        align-items: center;
+    }
+    .footer .social li img{
+        margin-right: 3px;
+        width: 16px;
+    }
+    .footer .links{
+        text-align: center;
+    }
+    .footer .links a{
+        margin: 10px 0;
+        font-size: 14px;
+    }
+    .footer .contact{
+        width: 100%;
+    }
+    .footer .mail,.footer .phone{
+        font-size: 13px;
+    }
+    .footer p{
+        font-size: 13px;
+    }
+}
+@media(max-width:1200px){
+    .footer .social{
+        width: 100%;
     }
 }
 @media(min-width:975px){
