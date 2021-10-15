@@ -496,8 +496,9 @@ body.ltr{
         font-size: 14px;
     }
     .footer .social{
+        padding-right: 5px;
         width: 100%;
-        font-size: 12px;
+        font-size: 10px;
     }
     .footer .social li{
         margin-bottom: 10px;
@@ -506,7 +507,7 @@ body.ltr{
     }
     .footer .social li img{
         margin-right: 3px;
-        width: 16px;
+        width: 14px;
     }
     .footer .links{
         text-align: center;
@@ -523,6 +524,9 @@ body.ltr{
     }
     .footer p{
         font-size: 13px;
+    }
+    .blog img{
+        width: 100%;
     }
 }
 @media(max-width:1200px){
