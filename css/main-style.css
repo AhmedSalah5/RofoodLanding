@@ -85,6 +85,9 @@ body{
 }
 .features .feature{
     margin-bottom: 50px;
+    box-shadow: 0 0 10px #eee;
+    padding: 20px;
+    border-radius: 10px;
 }
 .features .feature .icon{
     width: 100px;
@@ -96,6 +99,9 @@ body{
     line-height: 100px;
     font-size: 30px;
     margin: 0 auto 10px;
+}
+.features .feature h4{
+    font-weight: 600;
 }
 .features .feature p{
     width: 75%;
@@ -390,7 +396,8 @@ body{
     padding-top: 70px;
 }
 .plans .table{
-    font-size: 1.5rem;
+    font-size: 1.7rem;
+    font-weight: bold;
 }
 
 /*Change Direction Left To Right*/
